@@ -1,3 +1,5 @@
 const runApp = () =>{
-    alert("Welcome to Git")
+    let userInput = document.getElementById("input").value
+
+    alert(userInput)
 }

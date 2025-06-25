@@ -24,11 +24,11 @@ p{
 }
 .btn-div{
     text-align: center;
+    margin-top: 2rem;
 }
 
 .btn{
     padding: 1rem 2.5rem;
-    margin-top: 1rem;
     background-color: green;
     color: white;
     border: none;
@@ -40,4 +40,10 @@ p{
 .btn:hover{
     background-color: white;
     color: green;
+}
+#input{
+    padding: 15px 45px;
+    border-radius: 1rem;
+    font-size: 16px;
+    margin-right: 20px;
 }
