@@ -22,3 +22,22 @@ p{
     line-height: 40px;
     text-align: justify;
 }
+.btn-div{
+    text-align: center;
+}
+
+.btn{
+    padding: 1rem 2.5rem;
+    margin-top: 1rem;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: 17px;
+    transition: all 1s;
+}
+.btn:hover{
+    background-color: white;
+    color: green;
+}
