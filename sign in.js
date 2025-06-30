@@ -6,6 +6,7 @@ function login(event) {
 
     if (!email || !password) {
         message.textContent = 'Please enter both username and password.';
+        message.textContent = 'Please enter both email and password.';
         message.style.color = 'red';
         return false;
     }
