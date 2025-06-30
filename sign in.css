@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+    color: green;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline;
+    font-family: cursive;
+    /* text-indent: 10px; */
+    text-underline-offset: 0.8rem;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    list-style: none;
+    font-size: 16px;
+    font-family: cursive;
+}
+
+.nav-list li, .nav-list a{
+    color: green;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+  }
+  nav ul {
+    flex-direction: column;
+    width: 100%;
+  }
+  nav ul li {
+    margin: 0.5rem 0;
+  }
+}
