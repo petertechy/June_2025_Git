@@ -1,8 +1,8 @@
-function register(event) {
+function reg(event) {
     event.preventDefault();
-    var email = document.getElementById('reg-email').value;
-    var password = document.getElementById('reg-password').value;
-    var message = document.getElementById('reg-message');
+    var email = document.getElementById('email').value;
+    var password = document.getElementById('password').value;
+    var message = document.getElementById('message');
 
     if (!email || !password) {
         message.textContent = 'Please enter both email and password.';
@@ -24,7 +24,7 @@ function login(event) {
     var message = document.getElementById('message');
 
     if (!email || !password) {
-        message.textContent = 'Please enter both username and password.';
+        message.textContent = 'Please enter both email and password.';
         message.style.color = 'red';
         return false;
     }
