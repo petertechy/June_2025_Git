@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+body{
+    color: green;
+}
+
+header{
+    color: black;
+    padding: 2rem;
+    text-align: center;
+}
+
+main{
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0;
+}
+
+.faq .question{
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-left: 4px solid green;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.faq h2, .contact h2{
+    margin-bottom: 1rem;
+    color: green;
+}
+
+.contact{
+    margin-top: 2rem;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer{
+    text-align: center;
+    padding: 1rem;
+    margin-top: 0;
+}
