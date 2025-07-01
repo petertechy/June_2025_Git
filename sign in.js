@@ -1,22 +1,3 @@
-function reg(event) {
-    event.preventDefault();
-    var email = document.getElementById('email').value;
-    var password = document.getElementById('password').value;
-    var message = document.getElementById('message');
-
-    if (!email || !password) {
-        message.textContent = 'Please enter both email and password.';
-        message.style.color = 'red';
-        return false;
-    }
-    // Save credentials to localStorage
-    localStorage.setItem('userEmail', email);
-    localStorage.setItem('userPassword', password);
-    message.textContent = 'Registration successful! You can now log in.';
-    message.style.color = 'green';
-    return false;
-}
-
 function login(event) {
     event.preventDefault(); 
     var email = document.getElementById('email').value;
@@ -24,6 +5,7 @@ function login(event) {
     var message = document.getElementById('message');
 
     if (!email || !password) {
+        message.textContent = 'Please enter both username and password.';
         message.textContent = 'Please enter both email and password.';
         message.style.color = 'red';
         return false;
